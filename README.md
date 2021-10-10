@@ -26,14 +26,14 @@ The script records sessions with 4 pomodoros, which are followed by a break. Eac
 The script records the podoros in a CSV file. The follwoing is an example:
 
 | Date | Time | Project |
- ---- | ---- | ------- 
-2021-10-10 | 00:04 | Pomodoro |
-  ---- | ---- | ------- |
-2021-10-10 | 00:34 | Pomodoro |
-  ---- | ---- | ------- |
-2021-10-10 | 01:06 | Pomodoro |
-  ---- | ---- | ------- |
-2021-10-10 | 01:36 | Pomodoro |
+| :----: | :----: | :-------: |
+| 2021-10-10 | 00:04 | Pomodoro |
+|  ---- | ---- | ------- |
+| 2021-10-10 | 00:34 | Pomodoro |
+|  ---- | ---- | ------- |
+| 2021-10-10 | 01:06 | Pomodoro |
+|  ---- | ---- | ------- |
+| 2021-10-10 | 01:36 | Pomodoro |
 
 
 
