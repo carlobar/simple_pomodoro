@@ -4,14 +4,9 @@
 
 log_file='register.csv'
 
-play_clip_b () {
-    ls ./sounds/*.mp3 | python rand_clip.py | xargs play
-}
 play_clip () {
     ls ./sounds/*.mp3 | shuf -n 1 | xargs -I % play % trim 0 15 2> /dev/null 
 }
-
-
 
 progress () {
     text=$( fortune wisdom art anarchism bofh-excuses )
@@ -71,7 +66,7 @@ do
     register_pomodoro
     sleep 25m
     zenity --notification --text="Take a break" 2> /dev/null
-    play_clip
+    #play_clip
     if [ $pomodoros -eq 4 ]
     then
         progress 900
