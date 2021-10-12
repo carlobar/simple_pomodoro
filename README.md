@@ -5,10 +5,10 @@ Keeps records of pomodoros and creates alerts about breaks using fortunes
 
 ## Requirements 
 
-The script uses the following packages: `fortunes`, `fortune-anarchism`, `fortune-bofh-excuses`, and `zenity`. The following command can be used to install them
+The script uses the following packages: `fortunes`, `fortune-anarchism`, `fortunes-bofh-excuses`, and `zenity`. The following command can be used to install them
 
 ```
-$ sudo apt-get install fortunes fortune-anarchism fortune-bofh-excuses zenity
+$ sudo apt-get install fortunes fortune-anarchism fortunes-bofh-excuses zenity
 ```
 
 
